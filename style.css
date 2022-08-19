@@ -34,7 +34,10 @@ nav .container {
     align-items: center;
     justify-content: space-between;
 }
-
+nav .right .menu{
+    font-size: 1.5rem;
+    display: none;
+}
 nav .container ul {
     display: flex;
     align-items: center;
@@ -294,6 +297,13 @@ footer .footer-right img {
 
 
 @media (max-width:700px) {
+    nav .right .menu{
+        display: block;
+    }
+    nav .container ul {
+        display: none;
+  
+    }
     #hero .container {
         display: flex;
         flex-wrap: wrap;
